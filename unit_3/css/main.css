@@ -1,0 +1,14 @@
+body {
+	background-color:#fefffe;
+}
+
+h1,p,ul,li {
+	color:#66666e;
+	font-family: arial, sans-serif;
+}
+
+#slogan{
+	color:#fefffe;
+	background-color: #66666e;
+	font-family: arial, sans-serif;
+}
