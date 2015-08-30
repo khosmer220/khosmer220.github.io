@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Sanchez);
+
+body {
+	background-color:#fefffe;
+}
+h1   {
+	background-color:#66666e;
+	color:#fefffe;
+	font-family: 'Sanchez', serif;
+}
+
+h3	{
+	font-size:1.5em;
+	background-color:#66666e;
+	color:#fefffe;
+	font-family: 'Sanchez', serif;
+}
+p,ul,li {
+	color:#66666e;
+	font-family: 'Raleway', sans-serif;
+}
+
+#slogan{
+	font-family: 'Raleway', sans-serif;
+}
