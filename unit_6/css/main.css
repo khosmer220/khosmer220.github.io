@@ -1,0 +1,87 @@
+h1,
+h2 {
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 800;
+  color: #a21a82
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Rochester', cursive;
+}
+
+h2 {
+  font-size: 28px;
+  padding: .2em 0;
+  color: #821A82;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+p {
+  color: #000;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding: 0.2em 0;
+  font-size: 22px;
+  margin:1;
+}
+
+nav {
+  float: right;
+  font-size: 22px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding: 1.5em 0;
+}
+
+a {
+  background-color: white;
+  color: #a21a82;
+  text-decoration: none;
+  padding: 40px;
+  width: 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 580px;
+}
+
+div {
+  font-size: 1.2em;
+  width: 46%;
+  padding: 2%;
+  display: inline-block;
+}
+
+#picture {
+  float: left;
+}
+
+#about {
+  float: right;
+}
+
+footer {
+  float: right;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  padding: 1em 0;
+  clear: both;
+}
+
+section {
+  background: white;
+  color: black;
+  overflow: auto;
+}
+
+#box {
+  background-color: #722139;
+  opacity: 0.3;
+  width: auto;
+  height: 400%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+}
