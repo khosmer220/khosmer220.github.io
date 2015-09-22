@@ -32,14 +32,14 @@ nav {
   font-size: 24px;
   font-family: 'Pathway Gothic One', sans-serif;
   padding: 1.6em 0;
-  width:50%;
+  width:49%;
 }
 
 a {
   background-color: white;
   color: #a21a82;
   text-decoration: none;
-  padding: 40px;
+  padding: 30px;
   width: 40px;
 }
 
@@ -47,6 +47,13 @@ img {
   display: block;
   margin: 0 auto;
   width: 580px;
+}
+
+#social img{
+  display:block
+  margin:0 auto;
+  width: 90px;
+  float:left;
 }
 
 div {
@@ -90,15 +97,3 @@ section {
   z-index:-1;
   bottom:0;
 }
-
-#social {
-  height:90px;
-  width:50% 
-}
-
-
-
-
-
-
-
