@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Sanchez);
+
+body {
+	background-color:#fefffe;
+}
+
+header {
+  display:block;
+}
+
+h1 {
+  font-size:2.5em;
+  font-family: 'Sanchez', serif;
+  text-align: center;
+	color: #66666e;
+}
+
+.logo {
+  float:left;
+  display:inline-block;
+  font-size:2.5em;
+  font-family: 'Sanchez', serif;
+  padding: .3em;
+  width:50%;
+}
+
+nav {
+  float:right;
+  display:inline-block;
+  width:49%;
+  padding: .3em;
+}
+
+nav a {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fefffe;
+  color: #66666e;
+  text-decoration: none;
+  margin:1em 2em 1em 2em;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.clearfix:after {
+  visibility:hidden;
+  display:block;
+  font-size:0;
+  content:" ";
+  clear:both;
+  height:0;
+}
+
+img {
+  display:block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#picture {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#slogan{
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size:1.5em;
+	background-color:#fefffe;
+	color:#66666e;
+	font-family: 'Sanchez', serif;
+  padding:1%;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.read {
+  font-size:1.5em;
+	background-color:#fefffe;
+	color:#66666e;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 29.33%;
+  padding: 1%;
+  margin: 0 1%;
+  float:left;
+}
+
+.read img {
+  width: 100%;
+}
+
+.look {
+  font-size:1.5em;
+	background-color:#fefffe;
+	color:#66666e;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 29.33%;
+  padding: 1%;
+  margin: 0 1%;
+  float:left;
+}
+
+.look img {
+  width: 100%;
+}
+
+.speak {
+  font-size:1.5em;
+	background-color:#fefffe;
+	color:#66666e;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 29.33%;
+  padding: 1%;
+  margin: 0 1%;
+  float:left;
+}
+
+.speak img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	nav a {
+		float:none;
+    display:none;
+	}
+
+  #picture {
+    float:none;
+    display:none;
+  }
+
+	.logo {
+		float: none;
+		width: 100%;
+	}
+
+	.read {
+		float: none;
+		width: 100%;
+	}
+
+	.look {
+		float: none;
+		width: 100%;
+	}	
+	.speak {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+
+
